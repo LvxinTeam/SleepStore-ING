@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+input,select{vertical-align:middle;}
+.all{
+    background-color: #F5F5F5;
+    .sm{
+        background-image: url(../image/tp.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        height:px2rem(400);
+        padding-top: px2rem(60);
+        .k{ 
+            width: 80%;
+            height: px2rem(40);
+            display: flex;
+            justify-content: center;
+            .ccc{
+                select {
+                    width: px2rem(80);
+                    height: px2rem(40);
+                    font-size: px2rem(16);
+                }
+                input{
+                    width: px2rem(330);
+                    height: px2rem(39);
+                    margin-left:px2rem(-10);  
+                }
+                img{
+                    width: px2rem(40);
+                    height: px2rem(40); 
+                    margin-left:px2rem(-12);
+                    display: inline-block; 
+                }
+            }
+            .ttt{
+                width: px2rem(40);
+                height: px2rem(40);
+                display: inline-block; 
+                img{
+                    width: px2rem(40);
+                    height: px2rem(40); 
+                }
+            }
+        }
+
+    }
+    .tw{
+        height: px2rem(56);
+        display: flex;
+        flex-wrap: nowrap;
+        font-size:px2rem(16);
+        .f{
+            .img{
+                width: px2rem(40);
+                height: px2rem(40);
+            }
+        }
+        
+    }
+    .xr{
+        display: flex;
+        margin-top:px2rem(30);
+        height: px2rem(160);
+        font-size:px2rem(16);
+        text-align: center;
+        .t{
+            img{
+            width: px2rem(90);
+            height: px2rem(75);
+            }
+        }
+    }
+    .hz{
+        height: px2rem(300);
+        display: flex;
+        .zb{
+            height: px2rem(260);
+            img{
+            width: px2rem(290);
+            height: px2rem(260);
+            }
+        }
+        .yb{
+            height: px2rem(260);
+            .s{
+                width: px2rem(260);
+                height: px2rem(120);
+                img{
+                    width: px2rem(260);
+                    height: px2rem(120);
+                }
+            }
+            .x{
+                height: px2rem(120);
+                display: flex;
+                margin-top: 10px;
+                img{
+                        width: px2rem(130);
+                        height: px2rem(120); 
+                    }
+            }
+        }
+    }
+    .jr{
+        padding-left: 30%;
+        height: px2rem(40);
+        font-size: px2rem(25);
+        img{
+            width: px2rem(25);
+            height: px2rem(25);
+        }
+    }
+    .yf{
+        height: px2rem(350);
+        margin-top: px2rem(20);
+        margin-bottom: px2rem(100);
+        display: flex;
+        .qc{
+            height: px2rem(310);
+            img{
+                width: px2rem(290);
+                height: px2rem(310);
+            }
+            .qq{
+                height: px2rem(20);
+                font-size: px2rem(20);
+                color:red;
+                img{
+                    width: px2rem(30);
+                    height: px2rem(30);
+                }
+                .zyb{
+                    float: right;
+                }
+            }
+        }  
+    }
+    .db{
+        background: rgb(252, 252, 252);
+        width: 100%;
+        height: px2rem(80);
+        position: fixed;
+        bottom: px2rem(0);
+        z-index: 100;
+        display: flex;
+        font-size: px2rem(20);
+        text-align: center;
+        img{
+            width: px2rem(50);
+            height: px2rem(42);
+        }
+    }
+}

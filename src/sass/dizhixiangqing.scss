@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+body{
+    background-color: rgb(245, 245, 245);
+}
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.container{
+    .title{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        li{
+            flex: 1;        
+        }
+        .lileft{
+            text-align: left;
+            i{  
+                margin-left: px2rem(30);
+                font-size: px2rem(30);
+            }
+        }
+        .limiddle{
+            text-align: center;
+            height: px2rem(70);
+            line-height: px2rem(70);
+            span{
+                font-size: px2rem(38);
+                font-weight: bolder;
+            }
+        }
+        .liright{
+            text-align: right;
+            span{
+                margin-right: px2rem(30);
+                font-size: px2rem(33);
+                font-weight: bold;
+                color: red;
+            }
+        }
+    }
+    .conatnt{
+        margin-top: px2rem(20);
+        padding-left: px2rem(30);
+        background-color: white;
+        .lione{
+            display: flex;
+            align-items: center;
+            height: px2rem(90);
+            border-bottom: px2rem(1) solid #666;
+            .span1{
+                margin-right: px2rem(38);
+            }
+            span{
+                font-size: px2rem(38);
+                color: black;
+            }
+            input{
+                padding-left: px2rem(20);
+                width: px2rem(400);
+                height: px2rem(50);
+                border: none;
+                font-size: px2rem(35);
+                outline: none;
+            }
+        }
+        .lastli{
+            border: none;
+            #address{
+                padding-top: px2rem(10);
+                border: none;
+                width: 100%;
+                font-size: px2rem(35);
+                line-height: px2rem(50);
+                outline: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+.container .title {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: white; }
+  .container .title p {
+    font-size: 0.95rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-weight: bold; }
+  .container .title div {
+    font-size: 0.875rem;
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translate(-50%, -50%); }
+
+.container .urlbox {
+  width: 10rem;
+  height: 10.5rem;
+  background-image: url(../image/vvv.png);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .container .urlbox p {
+    display: block;
+    position: absolute;
+    width: 8.75rem;
+    text-align: center;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    font-size: 0.75rem;
+    color: #999; }

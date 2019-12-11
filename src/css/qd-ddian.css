@@ -1,0 +1,164 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+.all {
+  background-color: #f5f5f5;
+  text-align: center; }
+  .all .title {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: white; }
+    .all .title p {
+      font-size: 0.95rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      font-weight: bold; }
+    .all .title div {
+      font-size: 0.875rem;
+      position: absolute;
+      top: 50%;
+      left: 1.5rem;
+      transform: translate(-50%, -50%); }
+  .all .xx {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding-top: 1rem;
+    padding-left: 6%;
+    padding-right: 6%; }
+    .all .xx .zbian img {
+      width: 2.15rem;
+      height: 2.15rem; }
+    .all .xx .ybian {
+      width: 80%;
+      overflow: hidden; }
+      .all .xx .ybian .smian {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.6rem; }
+      .all .xx .ybian .wz {
+        font-size: 0.45rem;
+        color: #9a9a9a;
+        float: left;
+        margin-top: 3%; }
+  .all ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff; }
+    .all ul .hong {
+      width: 0.25rem;
+      height: 0.075rem;
+      background-color: red; }
+    .all ul .nan {
+      width: 0.25rem;
+      height: 0.075rem;
+      background-color: aqua; }
+  .all .xiangz {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #ffffff;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: start;
+    padding-left: 6%;
+    border-bottom: 2px solid #f5f5f5; }
+    .all .xiangz .xz {
+      width: 0.8rem;
+      height: 0.8rem;
+      padding-top: 0.3rem; }
+  .all .liliao {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    background-color: #ffffff;
+    padding-left: 6%;
+    padding-right: 6%; }
+    .all .liliao .dsg img {
+      width: 2.5rem;
+      height: 2.5rem; }
+    .all .liliao .dsg .wsz {
+      display: inline-block; }
+      .all .liliao .dsg .wsz .wz {
+        font-size: 0.6rem;
+        padding-bottom: 18%; }
+      .all .liliao .dsg .wsz .sz {
+        font-size: 0.4rem;
+        color: #c8c7c7; }
+    .all .liliao .sz2 {
+      font-size: 0.75rem; }
+  .all .yunf {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.25rem;
+    background-color: #ffffff;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #f5f5f5; }
+    .all .yunf .wz3 {
+      font-size: 0.5rem; }
+    .all .yunf .sz3 {
+      font-size: 0.5rem; }
+  .all .yhjuan {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.25rem;
+    background-color: #ffffff;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #f5f5f5; }
+    .all .yhjuan .youh {
+      font-size: 0.5rem; }
+    .all .yhjuan .dsq {
+      font-size: 0.5rem; }
+      .all .yhjuan .dsq img {
+        width: 0.7rem;
+        height: 0.7rem; }
+      .all .yhjuan .dsq .wyuan {
+        font-size: 0.6rem;
+        color: red; }
+  .all .yunf2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    background-color: #ffffff;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #f5f5f5; }
+    .all .yunf2 .wz4 {
+      font-size: 0.65rem;
+      color: #c8c7c7; }
+    .all .yunf2 .sz4 {
+      font-size: 0.65rem;
+      color: red; }
+  .all .ljfk {
+    border: 0.05rem solid #b0b0b0;
+    border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+    margin-top: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 0.8rem;
+    background: -webkit-linear-gradient(left, #fe5e19, #fe281c);
+    background: -o-linear-gradient(right, #fe5e19, #fe281c);
+    background: -moz-linear-gradient(right, #fe5e19, #fe281c);
+    background: linear-gradient(to right, #fe5e19, #fe281c); }

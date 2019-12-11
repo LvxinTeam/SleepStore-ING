@@ -1,0 +1,640 @@
+@charset "UTF-8";
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+body {
+  background-color: whitesmoke; }
+
+#box {
+  height: auto;
+  background: #f5f5f5; }
+  #box .top {
+    height: 4.25rem;
+    width: 100%;
+    background-color: white; }
+    #box .top .top_img {
+      height: 1.625rem;
+      width: 100%;
+      padding-top: 8px; }
+      #box .top .top_img img {
+        width: 1.625rem;
+        height: 1.625rem;
+        margin-left: 0.75rem; }
+    #box .top .top_p {
+      margin: 0;
+      height: 2.5rem;
+      font-size: 1.5rem;
+      font-family: "黑体";
+      font-weight: bold;
+      margin-left: 0.75rem; }
+      #box .top .top_p a {
+        color: black; }
+  #box .center {
+    height: auto;
+    margin-top: 0.45rem;
+    background-color: white; }
+    #box .center .one {
+      width: 100%;
+      display: flex;
+      height: 2.25rem;
+      line-height: 2.25rem; }
+      #box .center .one p {
+        width: 2.5rem;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        flex-grow: 1;
+        margin-left: 0.75rem;
+        font-size: 0.75rem;
+        font-weight: bold; }
+      #box .center .one a {
+        height: 2.25rem;
+        line-height: 2.25rem; }
+        #box .center .one a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 2rem;
+          height: 2rem;
+          display: block;
+          border-radius: 50%; }
+    #box .center .two {
+      width: 100%;
+      display: flex;
+      height: 1.75rem;
+      align-items: center;
+      border-top: 1px solid #999; }
+      #box .center .two .div_p {
+        width: 2.5rem;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        flex-grow: 1;
+        font-size: 0.75rem; }
+        #box .center .two .div_p .p1 {
+          width: 6.25rem;
+          float: left;
+          font-size: 0.75rem;
+          text-align: left;
+          margin-left: 0.75rem;
+          font-weight: bold; }
+        #box .center .two .div_p .p2 {
+          font-size: 0.625rem;
+          text-align: right;
+          color: #999; }
+      #box .center .two a {
+        height: 1.75rem;
+        line-height: 1.75rem;
+        display: flex;
+        align-items: center; }
+        #box .center .two a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 1.375rem;
+          height: 1.375rem;
+          display: block; }
+  #box .pwd {
+    height: 2.25rem;
+    line-height: 2.25rem;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 0.5rem; }
+    #box .pwd p {
+      width: 2.5rem;
+      height: 1.75rem;
+      flex-grow: 1;
+      margin-left: 0.75rem;
+      font-size: 0.75rem;
+      font-weight: bold; }
+    #box .pwd a {
+      height: 2.25rem;
+      line-height: 2.25rem;
+      display: flex;
+      align-items: center; }
+      #box .pwd a img {
+        text-align: right;
+        margin-right: 0.25rem;
+        width: 1.375rem;
+        height: 1.375rem;
+        display: block; }
+  #box .bottom {
+    height: 2.125rem;
+    line-height: 2.125rem;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 1.25rem;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 0.5rem; }
+    #box .bottom a {
+      color: black; }
+
+#box1 {
+  height: auto;
+  position: relative; }
+  #box1 .top {
+    height: 4.25rem;
+    width: 100%;
+    background-color: white;
+    opacity: 0.4; }
+    #box1 .top .top_img {
+      height: 1.625rem;
+      width: 100%;
+      padding-top: 8px; }
+      #box1 .top .top_img img {
+        width: 1.625rem;
+        height: 1.625rem;
+        margin-left: 0.75rem; }
+    #box1 .top .top_p {
+      margin: 0;
+      height: 2.5rem;
+      font-size: 1.5rem;
+      font-family: "黑体";
+      font-weight: bold;
+      margin-left: 0.75rem; }
+      #box1 .top .top_p a {
+        color: black; }
+  #box1 .center {
+    height: auto;
+    margin-top: 0.45rem;
+    background-color: white;
+    opacity: 0.4; }
+    #box1 .center .one {
+      width: 100%;
+      display: flex;
+      height: 2.25rem;
+      line-height: 2.25rem; }
+      #box1 .center .one p {
+        width: 2.5rem;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        flex-grow: 1;
+        margin-left: 0.75rem;
+        font-size: 0.75rem;
+        font-weight: bold; }
+      #box1 .center .one a {
+        height: 2.25rem;
+        line-height: 2.25rem; }
+        #box1 .center .one a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 2rem;
+          height: 2rem;
+          display: block;
+          border-radius: 50%;
+          opacity: 0.4; }
+    #box1 .center .two {
+      width: 100%;
+      display: flex;
+      height: 1.75rem;
+      align-items: center;
+      border-top: 1px solid #999; }
+      #box1 .center .two .div_p {
+        width: 2.5rem;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        flex-grow: 1;
+        font-size: 0.75rem; }
+        #box1 .center .two .div_p .p1 {
+          width: 6.25rem;
+          float: left;
+          font-size: 0.75rem;
+          text-align: left;
+          margin-left: 0.75rem;
+          font-weight: bold; }
+        #box1 .center .two .div_p .p2 {
+          font-size: 0.625rem;
+          text-align: right;
+          color: #999; }
+      #box1 .center .two a {
+        height: 1.75rem;
+        line-height: 1.75rem;
+        display: flex;
+        align-items: center; }
+        #box1 .center .two a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 1.375rem;
+          height: 1.375rem;
+          display: block;
+          opacity: 0.4; }
+  #box1 .pwd {
+    height: 2.25rem;
+    line-height: 2.25rem;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 0.5rem;
+    opacity: 0.4; }
+    #box1 .pwd p {
+      width: 2.5rem;
+      height: 1.75rem;
+      flex-grow: 1;
+      margin-left: 0.75rem;
+      font-size: 0.75rem;
+      font-weight: bold; }
+    #box1 .pwd a {
+      height: 2.25rem;
+      line-height: 2.25rem;
+      display: flex;
+      align-items: center; }
+      #box1 .pwd a img {
+        text-align: right;
+        margin-right: 0.25rem;
+        width: 1.375rem;
+        height: 1.375rem;
+        display: block;
+        opacity: 0.4; }
+  #box1 .bottom {
+    height: 2.125rem;
+    line-height: 2.125rem;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 1.25rem;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    opacity: 0.4; }
+    #box1 .bottom a {
+      color: black; }
+  #box1 .tankuang {
+    width: 12.7rem;
+    background-color: white;
+    height: 7.25rem;
+    position: absolute;
+    top: 68%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px; }
+    #box1 .tankuang .tk_p {
+      width: 100%;
+      height: 2.5rem;
+      margin-top: 1.125rem;
+      text-align: center;
+      font-size: 0.825rem;
+      color: #999; }
+    #box1 .tankuang .btn {
+      width: 100%;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      margin-top: 1.3rem;
+      font-size: 0.825rem; }
+      #box1 .tankuang .btn div {
+        text-align: center; }
+      #box1 .tankuang .btn .cancel {
+        width: 50%;
+        height: 2.25rem;
+        float: left;
+        border-right: 1px solid #999; }
+        #box1 .tankuang .btn .cancel a {
+          color: #999; }
+      #box1 .tankuang .btn .define {
+        border-top: 1px solid #999; }
+        #box1 .tankuang .btn .define a {
+          color: #999; }
+
+#box2 {
+  height: auto;
+  position: relative; }
+  #box2 .top {
+    height: 4.25rem;
+    width: 100%;
+    background-color: white;
+    opacity: 0.4; }
+    #box2 .top .top_img {
+      height: 1.625rem;
+      width: 100%;
+      padding-top: 8px; }
+      #box2 .top .top_img img {
+        width: 1.625rem;
+        height: 1.625rem;
+        margin-left: 0.75rem; }
+    #box2 .top .top_p {
+      margin: 0;
+      height: 2.5rem;
+      font-size: 1.5rem;
+      font-family: "黑体";
+      font-weight: bold;
+      margin-left: 0.75rem; }
+      #box2 .top .top_p a {
+        color: black; }
+  #box2 .center {
+    height: auto;
+    opacity: 0.4;
+    margin-top: 0.45rem;
+    background-color: white; }
+    #box2 .center .one {
+      width: 100%;
+      display: flex;
+      height: 2.25rem;
+      line-height: 2.25rem; }
+      #box2 .center .one p {
+        width: 2.5rem;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        flex-grow: 1;
+        margin-left: 0.75rem;
+        font-size: 0.75rem;
+        font-weight: bold; }
+      #box2 .center .one a {
+        height: 2.25rem;
+        line-height: 2.25rem; }
+        #box2 .center .one a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 2rem;
+          height: 2rem;
+          display: block;
+          border-radius: 50%;
+          opacity: 0.4; }
+    #box2 .center .two {
+      width: 100%;
+      display: flex;
+      height: 1.75rem;
+      align-items: center;
+      border-top: 1px solid #999; }
+      #box2 .center .two .div_p {
+        width: 2.5rem;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        flex-grow: 1;
+        font-size: 0.75rem; }
+        #box2 .center .two .div_p .p1 {
+          width: 6.25rem;
+          float: left;
+          font-size: 0.75rem;
+          text-align: left;
+          margin-left: 0.75rem;
+          font-weight: bold; }
+        #box2 .center .two .div_p .p2 {
+          font-size: 0.625rem;
+          text-align: right;
+          color: #999; }
+      #box2 .center .two a {
+        height: 1.75rem;
+        line-height: 1.75rem;
+        display: flex;
+        align-items: center; }
+        #box2 .center .two a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 1.375rem;
+          height: 1.375rem;
+          display: block;
+          opacity: 0.4; }
+  #box2 .pwd {
+    height: 2.25rem;
+    line-height: 2.25rem;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 0.5rem;
+    opacity: 0.4; }
+    #box2 .pwd p {
+      width: 2.5rem;
+      height: 1.75rem;
+      flex-grow: 1;
+      margin-left: 0.75rem;
+      font-size: 0.75rem;
+      font-weight: bold; }
+    #box2 .pwd a {
+      height: 2.25rem;
+      line-height: 2.25rem;
+      display: flex;
+      align-items: center; }
+      #box2 .pwd a img {
+        text-align: right;
+        margin-right: 0.25rem;
+        width: 1.375rem;
+        height: 1.375rem;
+        display: block;
+        opacity: 0.4; }
+  #box2 .tankuang {
+    width: 12.7rem;
+    background-color: white;
+    height: 8.5rem;
+    position: absolute;
+    top: 64%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px; }
+    #box2 .tankuang .nc {
+      width: 95%;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      margin-top: 0.5rem;
+      padding-left: 5%;
+      font-size: 0.825rem; }
+    #box2 .tankuang .yxe {
+      width: 90%;
+      height: 1.875rem;
+      line-height: 1.875rem;
+      border: 1px solid #999;
+      margin: 0 auto;
+      font-size: 0.825rem;
+      margin-top: 0.25rem;
+      background-color: #fff8f8;
+      border-radius: 10px; }
+    #box2 .tankuang .btn {
+      width: 100%;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      margin-top: 1.3rem;
+      font-size: 0.825rem; }
+      #box2 .tankuang .btn div {
+        text-align: center; }
+      #box2 .tankuang .btn .cancel {
+        width: 50%;
+        height: 2.25rem;
+        float: left;
+        border-right: 1px solid #999; }
+        #box2 .tankuang .btn .cancel a {
+          color: #999; }
+      #box2 .tankuang .btn .define {
+        border-top: 1px solid #999; }
+        #box2 .tankuang .btn .define a {
+          color: #999; }
+  #box2 .bottom {
+    height: 2.125rem;
+    line-height: 2.125rem;
+    text-align: center;
+    font-family: "黑体";
+    font-size: 1.25rem;
+    background-color: white;
+    opacity: 0.4;
+    font-weight: bold;
+    margin-top: 0.5rem; }
+    #box2 .bottom a {
+      color: black; }
+
+#box3 {
+  height: auto; }
+  #box3 .top {
+    height: 4.25rem;
+    width: 100%;
+    background-color: white;
+    opacity: 0.4; }
+    #box3 .top .top_img {
+      height: 1.625rem;
+      width: 100%;
+      padding-top: 8px; }
+      #box3 .top .top_img img {
+        width: 1.625rem;
+        height: 1.625rem;
+        margin-left: 0.75rem; }
+    #box3 .top .top_p {
+      margin: 0;
+      height: 2.5rem;
+      font-size: 1.5rem;
+      font-family: "黑体";
+      font-weight: bold;
+      margin-left: 0.75rem; }
+      #box3 .top .top_p a {
+        color: black; }
+  #box3 .center {
+    height: auto;
+    opacity: 0.4;
+    margin-top: 0.45rem;
+    background-color: white; }
+    #box3 .center .one {
+      width: 100%;
+      display: flex;
+      height: 2.25rem;
+      line-height: 2.25rem; }
+      #box3 .center .one p {
+        width: 2.5rem;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        flex-grow: 1;
+        margin-left: 0.75rem;
+        font-size: 0.75rem;
+        font-weight: bold; }
+      #box3 .center .one a {
+        height: 2.25rem;
+        line-height: 2.25rem; }
+        #box3 .center .one a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 2rem;
+          height: 2rem;
+          display: block;
+          border-radius: 50%;
+          opacity: 0.4; }
+    #box3 .center .two {
+      width: 100%;
+      display: flex;
+      height: 1.75rem;
+      align-items: center;
+      border-top: 1px solid #999; }
+      #box3 .center .two .div_p {
+        width: 2.5rem;
+        height: 1.75rem;
+        line-height: 1.75rem;
+        flex-grow: 1;
+        font-size: 0.75rem; }
+        #box3 .center .two .div_p .p1 {
+          width: 6.25rem;
+          float: left;
+          font-size: 0.75rem;
+          text-align: left;
+          margin-left: 0.75rem;
+          font-weight: bold; }
+        #box3 .center .two .div_p .p2 {
+          font-size: 0.625rem;
+          text-align: right;
+          color: #999; }
+      #box3 .center .two a {
+        height: 1.75rem;
+        line-height: 1.75rem;
+        display: flex;
+        align-items: center; }
+        #box3 .center .two a img {
+          text-align: right;
+          margin-right: 0.25rem;
+          width: 1.375rem;
+          height: 1.375rem;
+          display: block;
+          opacity: 0.4; }
+  #box3 .pwd {
+    height: 2.25rem;
+    line-height: 2.25rem;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 0.5rem;
+    opacity: 0.4; }
+    #box3 .pwd p {
+      width: 2.5rem;
+      height: 1.75rem;
+      flex-grow: 1;
+      margin-left: 0.75rem;
+      font-size: 0.75rem;
+      font-weight: bold; }
+    #box3 .pwd a {
+      height: 2.25rem;
+      line-height: 2.25rem;
+      display: flex;
+      align-items: center; }
+      #box3 .pwd a img {
+        text-align: right;
+        margin-right: 0.25rem;
+        width: 1.375rem;
+        height: 1.375rem;
+        display: block;
+        opacity: 0.4; }
+  #box3 .bottom {
+    background: white;
+    width: 100%;
+    height: 45%;
+    position: fixed;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 0.75rem; }
+    #box3 .bottom .bottom_one {
+      width: 100%;
+      height: 2.75rem;
+      line-height: 2.75rem;
+      font-family: "黑体"; }
+      #box3 .bottom .bottom_one .bottom_p1 {
+        width: 55%;
+        float: left;
+        margin-left: 5%; }
+      #box3 .bottom .bottom_one .bottom_p2 {
+        width: 20%;
+        float: left;
+        text-align: center; }
+        #box3 .bottom .bottom_one .bottom_p2 a {
+          color: red; }
+    #box3 .bottom hr {
+      margin: 0 auto;
+      width: 90%; }
+    #box3 .bottom .bottom_p3 {
+      font-family: "微软雅黑";
+      height: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      color: #7e7979;
+      border-bottom: 1px solid #999;
+      width: 80%;
+      margin: 0 auto; }
+    #box3 .bottom .bottom_p4 {
+      font-family: "微软雅黑";
+      height: 2.25rem;
+      line-height: 2.25rem;
+      text-align: center;
+      border-bottom: 1px solid #999;
+      width: 80%;
+      margin: 0 auto; }

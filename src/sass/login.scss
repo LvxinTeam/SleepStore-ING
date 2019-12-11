@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+body{
+    background-color: white;
+}
+.container{
+    .title{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        p{
+            font-size: px2rem(38);
+            height: px2rem(70);
+            line-height: px2rem(70);
+            font-weight: bold;
+        }
+        div{
+            font-size: px2rem(35);
+            position: absolute;
+            top:50%;
+            left: px2rem(60);
+            transform: translate(-50%,-50%);
+        }
+    }
+    .onebox{
+        padding-left: px2rem(28);
+        height: px2rem(360);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            display: block;
+            width: px2rem(165);
+            height: px2rem(165);
+        }
+    }
+    .nav{
+        padding-left: px2rem(70);
+        padding-right: px2rem(70);
+        background-color: white;
+        .liss{
+            display: flex;
+            .left{
+                flex-grow: 1;
+            }
+        }
+        li{
+            border-bottom: px2rem(1) solid #999;
+            margin-bottom: px2rem(20);
+            overflow: hidden;
+            div{
+                font-size: px2rem(30);
+                line-height: px2rem(70);
+                float: left;
+            }
+            input{
+                padding-left: px2rem(10);
+                width: px2rem(430);
+                height: px2rem(70);
+                float: left;
+                font-size: px2rem(30);
+                border: none;
+                outline: none;
+            }
+            a{
+                float: right;
+                font-size: px2rem(26);
+                line-height: px2rem(70);
+                color: #666;
+            }
+            .yanjing{
+                float: right;
+                font-size: px2rem(26);
+                line-height: px2rem(70);
+                color: #666;
+            }
+        }
+        .wjpassword{
+           border: none;
+           a{
+            float: right;
+            font-size: px2rem(26);
+            line-height: px2rem(50);
+            color: #666;
+            }
+        }
+        .submit{
+            border-top: px2rem(1) solid #999;
+            border-radius: px2rem(45);
+            margin-top: px2rem(55);
+            height: px2rem(90);
+            background: -webkit-linear-gradient(left, rgb(254, 94, 25), rgb(254, 40, 28));
+	        background: -o-linear-gradient(right, rgb(254, 94, 25), rgb(254, 40, 28));
+	        background: -moz-linear-gradient(right, rgb(254, 94, 25), rgb(254, 40, 28));
+            background: linear-gradient(to right, rgb(254, 94, 25), rgb(254, 40, 28));
+            text-align: center;
+            p{
+                line-height: px2rem(90);
+                font-size: px2rem(35);
+                color: white;
+            }
+        }
+        .endli{
+            border: none;
+            margin-top: px2rem(60);
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    border: none;
+                    p{
+                        font-size: px2rem(26);
+                        line-height: px2rem(30);
+                        color: #666;
+                        margin-right: px2rem(15);
+                    }
+                    a{
+                        font-size: px2rem(26);
+                        line-height: px2rem(30);
+                        color: rgb(254, 45, 38);
+                    }
+                }
+            }            
+        }
+    }
+}

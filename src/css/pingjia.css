@@ -1,0 +1,117 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+.container .title {
+  text-align: center;
+  position: relative; }
+  .container .title p {
+    font-size: 0.95rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-weight: bold; }
+  .container .title div {
+    font-size: 0.875rem;
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translate(-50%, -50%); }
+
+.container .ysbox {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; }
+  .container .ysbox p {
+    line-height: 2.5rem;
+    font-size: 0.75rem;
+    color: black; }
+  .container .ysbox #pjbox {
+    border-radius: 0.25rem;
+    text-indent: 1rem;
+    width: 100%;
+    height: 5rem;
+    padding-top: 0.5rem;
+    font-size: 0.75rem;
+    background-color: whitesmoke;
+    outline: none; }
+
+.container .xiuyxiubox {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; }
+  .container .xiuyxiubox p {
+    line-height: 2.5rem;
+    font-size: 0.75rem;
+    color: black; }
+  .container .xiuyxiubox .btn {
+    padding-top: 0.5rem;
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 4.5rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 1.25rem;
+    margin-right: 1rem;
+    border: 0.025rem solid #999; }
+    .container .xiuyxiubox .btn i {
+      font-size: 1.5rem;
+      line-height: 2.5rem; }
+    .container .xiuyxiubox .btn span {
+      font-size: 0.75rem;
+      color: #999; }
+    .container .xiuyxiubox .btn input {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0; }
+
+.container .shoppfbox {
+  margin-left: 0.75rem;
+  margin-top: 1.25rem;
+  border-top: 0.025rem solid #999;
+  display: flex; }
+  .container .shoppfbox span {
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+    margin-right: 2rem; }
+  .container .shoppfbox .xxarr {
+    display: flex;
+    align-items: center; }
+    .container .shoppfbox .xxarr .iconfont {
+      color: #fe5e19;
+      margin-right: 0.5rem;
+      font-size: 0.875rem; }
+
+.container .submit {
+  margin-top: 1.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; }
+  .container .submit input {
+    width: 100%;
+    height: 2.25rem;
+    border-radius: 1.125rem;
+    background: -webkit-linear-gradient(left, #fe5e19, #fe281c);
+    background: -o-linear-gradient(right, #fe5e19, #fe281c);
+    background: -moz-linear-gradient(right, #fe5e19, #fe281c);
+    background: linear-gradient(to right, #fe5e19, #fe281c);
+    text-align: center;
+    font-size: 0.875rem;
+    color: white;
+    outline: none;
+    border: none; }

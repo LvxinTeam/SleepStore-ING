@@ -1,0 +1,350 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+// Dress_one部分
+#box{
+    height: auto;
+    position: relative;
+    .title{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        .left_jt{
+            text-align: left;
+            width: 45%;
+            img{
+                display: block;
+                width: px2rem(60);
+                height: px2rem(60);
+                margin-left: px2rem(30);
+            }
+        }
+        .Dress{
+            height: px2rem(95);
+            line-height: px2rem(95);
+            span{
+                font-size: px2rem(38);
+                font-weight: bold;
+            }
+        }
+    }
+    .nav{
+        width: 100%;
+        height: px2rem(50);
+        line-height: px2rem(50);
+        font-size: px2rem(29);
+        font-weight: 800;
+        list-style: none;
+        li{
+            width: 25%;
+            line-height: px2rem(50);
+            float: left;
+            text-align: center;
+            justify-content: center;
+        }
+        .nav_one{
+            color: red;
+        }
+        .nav_two{
+            color: #999;
+            display: flex;
+            align-items: center;
+            span{
+                width: 50%;
+                height: px2rem(50);
+                display: block;
+                float: left;
+            }
+            img{
+                width: px2rem(30);
+                height: px2rem(30);
+                display: block;
+                opacity: 0.5;
+            }
+        }
+    }
+    .classfiy{
+        width: 100%;
+        height: px2rem(70);
+        line-height: px2rem(70);
+        background-color: #f5f5f5;
+        margin-top: px2rem(10);
+        ul{
+            list-style: none;
+            li{
+                width: 50%;
+                height: px2rem(70);
+                float: left;
+            }
+            .classfiy_one{
+               span{
+                   font-size: px2rem(25);
+                   color: #888;
+                   font-weight: bold;
+                   margin-left: px2rem(30);
+               }
+            }
+            .classfiy_two{
+                text-align: right;
+                a{
+                    height: px2rem(70);
+                    line-height: px2rem(70);
+                    img{
+                        width: px2rem(45);
+                        height: px2rem(45);
+                        margin-right: px2rem(15);
+                        margin-top: px2rem(15);
+                    }
+                }
+            }
+        }
+    }
+    .cont{
+        height: auto;
+        margin-top: px2rem(25);
+        .cont_one{
+            display: flex;
+            justify-content: space-around;
+            margin-top: px2rem(15);
+            .one{
+                width: px2rem(295);
+                .div_img{
+                    width: 100%;
+                    text-align: center;
+                    position: relative;
+                    height: px2rem(280);
+                    
+                    img{
+                        display: block;
+                        width: px2rem(295);
+                        height: px2rem(190);
+                        border-radius: 14px;
+                        position: absolute;
+                    }
+                    span{
+                        font-weight: bold;
+                        display: block;
+                        position: absolute;
+                    }
+                    .span1{
+                        font-size: px2rem(25);
+                        top: 70%;
+                    }
+                    .span2{
+                        font-size: px2rem(20);
+                        color: #999;
+                        bottom: 0;
+                    }
+                }
+                .money{
+                    height: auto;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    span{
+                        font-size: px2rem(20);
+                        font-weight: bold;
+                        color: red;
+                    }
+                    img{
+                        width: px2rem(45);
+                        height: px2rem(45);
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+// Dress_two部分
+#box2{
+    height: auto;
+    position: relative;
+    .title{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        .left_jt{
+            text-align: left;
+            width: 45%;
+            img{
+                display: block;
+                width: px2rem(60);
+                height: px2rem(60);
+                margin-left: px2rem(30);
+            }
+        }
+        .Dress{
+            height: px2rem(95);
+            line-height: px2rem(95);
+            span{
+                font-size: px2rem(38);
+                font-weight: bold;
+            }
+        }
+    }
+    .nav{
+        width: 100%;
+        height: px2rem(50);
+        line-height: px2rem(50);
+        font-size: px2rem(29);
+        font-weight: 800;
+        list-style: none;
+        li{
+            width: 25%;
+            line-height: px2rem(50);
+            float: left;
+            text-align: center;
+            justify-content: center;
+        }
+        .nav_one{
+            color: red;
+        }
+        .nav_two{
+            color: #999;
+            display: flex;
+            align-items: center;
+            span{
+                width: 50%;
+                height: px2rem(50);
+                display: block;
+                float: left;
+            }
+            img{
+                width: px2rem(30);
+                height: px2rem(30);
+                display: block;
+                opacity: 0.5;
+            }
+        }
+    }
+    .classfiy{
+        width: 100%;
+        height: px2rem(70);
+        line-height: px2rem(70);
+        background-color: #f5f5f5;
+        margin-top: px2rem(10);
+        ul{
+            list-style: none;
+            li{
+                width: 50%;
+                height: px2rem(70);
+                float: left;
+            }
+            .classfiy_one{
+               span{
+                   font-size: px2rem(25);
+                   color: #888;
+                   font-weight: bold;
+                   margin-left: px2rem(30);
+               }
+            }
+            .classfiy_two{
+                text-align: right;
+                a{
+                    height: px2rem(70);
+                    line-height: px2rem(70);
+                    img{
+                        width: px2rem(45);
+                        height: px2rem(45);
+                        margin-right: px2rem(15);
+                        margin-top: px2rem(15);
+                    }
+                }
+            }
+        }
+    }
+    .cont{
+        height: auto;
+        margin-top: px2rem(25);
+        .cont_one{
+            height: px2rem(180);
+            display: flex;
+            margin-top: 30px;
+            .div_img{
+                height: px2rem(180);
+                width: px2rem(400); 
+                text-align: center;
+                img{
+                    width: px2rem(215); 
+                    height: px2rem(180);
+                    border-radius: 15px;
+                }
+            }
+            .div_cont{
+                height: px2rem(180);
+                width: 100%;
+                .cont_one{
+                    height: px2rem(100);
+                    width: 95%;
+                    position: relative;
+                    span{
+                        display: block;
+                        font-size: px2rem(25);
+                        width: 100%;
+                        font-weight: bold;
+                        font-family: "黑体·";
+                        height: px2rem(45);position: absolute;
+                    }
+                    .span1{
+                        top: 10%;
+                        font-size: px2rem(22);
+                    }
+                    .span2{
+                        top: 60%;
+                        font-size: px2rem(20);
+                        color: #999;
+                    }
+                }
+                .cont_two{
+                    width: 95%;
+                    height: px2rem(50);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    span{
+                        font-family: "黑体";
+                        font-weight: bold;
+                        color: red;
+                        font-size: px2rem(28);
+                    }
+                    img{
+                        width: px2rem(45);
+                        height: px2rem(45);
+                    }
+                }
+
+            }
+            
+        }
+        .xian{
+            width: 95%;
+            margin: 0 auto;
+            border: 1px solid #999;
+            margin-top: 20px;
+            opacity: 0.4;
+        }
+    }
+}

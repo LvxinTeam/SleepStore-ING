@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.all{
+    .title{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        p{
+            font-size: px2rem(38);
+            height: px2rem(70);
+            line-height: px2rem(70);
+            font-weight: bold;
+        }
+        div{
+            font-size: px2rem(35);
+            position: absolute;
+            top:50%;
+            left: px2rem(60);
+            transform: translate(-50%,-50%);
+        }
+    }
+    .dasj{
+        padding-top:px2rem(20) ;
+        padding-bottom:px2rem(20) ;
+        border-bottom:  px2rem(2) solid #f5f5f5;
+        .z1{
+            font-size: px2rem(22);
+            color: black;
+            padding-bottom: px2rem(5);
+        }
+        .z2{
+            font-size: px2rem(16);
+            color: #878787;
+            padding-bottom: px2rem(5);
+            
+        }
+        .z3{
+            font-size: px2rem(16);
+            color: #878787;
+        }
+        .z4{
+            font-size: px2rem(22);
+            color: black;
+            padding-bottom: px2rem(5);
+        }
+        .z5{
+            font-size: px2rem(16);
+            color: #878787;
+            padding-bottom: px2rem(5);
+        }
+        .z6{
+            font-size: px2rem(22);
+            color: black;
+            padding-bottom: px2rem(5);
+        }
+        .z7{
+            font-size: px2rem(16);
+            color: #878787;
+            padding-bottom: px2rem(5);
+        }
+    }
+}

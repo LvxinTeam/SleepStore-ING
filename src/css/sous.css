@@ -1,0 +1,100 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+.all {
+  background-color: #f5f5f5; }
+  .all .sm {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #ffffff; }
+    .all .sm .t1 {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-top: 2%; }
+    .all .sm .jt {
+      width: 70%;
+      height: 1rem;
+      margin-top: 2%;
+      font-size: 0.6rem;
+      border: 0.025rem solid #f5f5f5;
+      background-color: #f5f5f5;
+      color: #d2d2d2;
+      border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
+      background-image: url(../image/ss-2.png);
+      background-repeat: no-repeat;
+      background-position: 10px;
+      text-align: center; }
+    .all .sm .z1 {
+      font-size: 0.75rem;
+      margin-top: 2%; }
+  .all .sp {
+    padding-top: 0.75rem;
+    padding-left: 3%;
+    padding-right: 5%; }
+    .all .sp .huo .t2 {
+      width: 0.65rem;
+      height: 0.65rem; }
+    .all .sp .huo .z2 {
+      font-size: 0.65rem;
+      color: #d2d2d2; }
+    .all .sp .b1 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem; }
+      .all .sp .b1 .z3 {
+        background-color: #ffffff;
+        border: 0.025rem solid #ffffff;
+        font-size: 0.5rem;
+        padding: 0.375rem 0.875rem;
+        color: black;
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem; }
+    .all .sp .b2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.75rem; }
+      .all .sp .b2 .z3 {
+        background-color: #ffffff;
+        border: 0.025rem solid #ffffff;
+        font-size: 0.5rem;
+        padding: 0.375rem 0.875rem;
+        color: black;
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem; }
+  .all .lis {
+    margin-top: 0.75rem;
+    padding-left: 3%; }
+    .all .lis .jl .t3 {
+      width: 0.7rem;
+      height: 0.7rem; }
+    .all .lis .jl .z4 {
+      font-size: 0.65rem;
+      color: #d2d2d2; }
+    .all .lis .z5 {
+      font-size: 0.6rem;
+      color: black;
+      margin-top: 0.65rem; }
+  .all .qk {
+    padding-left: 40%;
+    margin-top: 0.75rem; }
+    .all .qk .t6 {
+      width: 0.65rem;
+      height: 0.65rem; }
+    .all .qk .z6 {
+      font-size: 0.5rem;
+      color: #d2d2d2; }

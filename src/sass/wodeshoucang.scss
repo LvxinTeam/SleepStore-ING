@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.container{
+    .title{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        p{
+            font-size: px2rem(38);
+            height: px2rem(70);
+            line-height: px2rem(70);
+            font-weight: bold;
+        }
+        div{
+            font-size: px2rem(35);
+            position: absolute;
+            top:50%;
+            left: px2rem(60);
+            transform: translate(-50%,-50%);
+        }
+    }
+    .urlbox{
+        width: px2rem(400);
+        height: px2rem(420);
+        background-image: url(../image/vvv.png);
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        position: relative;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        p{  
+            display: block;
+            position: absolute;
+            width: px2rem(350);
+            text-align: center;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%,0);
+            font-size: px2rem(30);
+            color: #999;
+        }
+    }
+}

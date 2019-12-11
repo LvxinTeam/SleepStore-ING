@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.container{
+    .onebox{
+        display: block;
+        width: 100%;
+    }
+    .twobox{
+        li{
+            text-align: center;
+        }
+        .li1{
+            p{
+                font-size: px2rem(40);
+                line-height: px2rem(100);
+                color: rgb(254, 61, 27);
+                font-weight: bold;
+            }
+        }
+        .li2{
+            p{
+                font-size: px2rem(25);
+                line-height: px2rem(30);
+                color: #999;
+                font-weight: bold;
+            }
+        }
+        .li3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: px2rem(90);
+            .dian1{
+                font-size: px2rem(20);
+                margin-right: px2rem(20);
+            }
+            .dian2{
+                font-size: px2rem(20);
+                margin-right: px2rem(20);
+                color: rgb(254, 61, 27);
+            }
+            .dian3{
+                font-size: px2rem(20);
+                margin-right: px2rem(20);
+            }
+        }
+        .li4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .buttom1{
+                border: px2rem(2) solid rgb(254, 61, 27);
+                border-radius: px2rem(35);
+                height: px2rem(66);
+                width: px2rem(220);
+                margin-right: px2rem(20);
+                text-align: center;
+            p{
+                line-height: px2rem(70);
+                font-size: px2rem(35);
+                color: rgb(254, 61, 27);
+            }
+            }
+            .buttom2{
+                border-radius: px2rem(35);
+                height: px2rem(70);
+                width: px2rem(220);
+                background: -webkit-linear-gradient(left, rgb(254, 94, 25), rgb(254, 40, 28));
+	            background: -o-linear-gradient(right, rgb(254, 94, 25), rgb(254, 40, 28));
+	            background: -moz-linear-gradient(right, rgb(254, 94, 25), rgb(254, 40, 28));
+                background: linear-gradient(to right, rgb(254, 94, 25), rgb(254, 40, 28));
+                text-align: center;
+            p{
+                line-height: px2rem(70);
+                font-size: px2rem(35);
+                color: white;
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+body {
+  background-color: whitesmoke; }
+
+.container .title {
+  text-align: center;
+  position: relative;
+  background-color: white; }
+  .container .title p {
+    font-size: 0.95rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-weight: bold; }
+  .container .title div {
+    font-size: 0.875rem;
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translate(-50%, -50%); }
+
+.container .onebox {
+  width: 90%;
+  margin: 0 auto;
+  height: 5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 0.75rem; }
+  .container .onebox .p1 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2.5rem; }
+  .container .onebox .p2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red; }
+
+.container .xuxian {
+  width: 83%;
+  margin: 0 auto;
+  border-bottom: 0.025rem dashed black; }
+
+.container .twobox {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 0.75rem; }
+  .container .twobox li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    line-height: 2rem; }
+    .container .twobox li p {
+      color: #666;
+      font-size: 0.625rem; }
+  .container .twobox .lastli {
+    padding-top: 2.25rem;
+    padding-bottom: 0.75rem;
+    justify-content: center; }
+    .container .twobox .lastli .p1 {
+      font-size: 0.75rem; }
+    .container .twobox .lastli .p2 {
+      font-size: 0.7rem;
+      color: blue; }

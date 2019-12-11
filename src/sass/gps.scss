@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.container{
+    .title{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        p{
+            font-size: px2rem(38);
+            height: px2rem(70);
+            line-height: px2rem(70);
+            font-weight: bold;
+        }
+        div{
+            font-size: px2rem(35);
+            position: absolute;
+            top:50%;
+            left: px2rem(60);
+            transform: translate(-50%,-50%);
+        }
+    }
+    .onebox{
+        padding-left: px2rem(30);
+        overflow: hidden;
+        .left{
+            float: left;
+            p{
+                font-size: px2rem(38);
+                line-height: px2rem(100);
+            }
+        }       
+        .gpsbox{
+            float: right;
+            border-radius: px2rem(25);
+            border: px2rem(2) solid red;
+            height: px2rem(50);
+            width: px2rem(135);
+            margin-top: px2rem(22);
+            margin-right: px2rem(30);
+            padding-left: px2rem(10);
+            padding-right: px2rem(10);
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                    font-size: px2rem(30);
+                    color: red;
+                    line-height: px2rem(50);
+                }
+            }
+        }
+    }
+    .twobox{
+        background-color: rgb(245, 245, 245);
+        padding-left: px2rem(28);
+        p{
+            font-size: px2rem(25);
+            line-height: px2rem(70);
+            color: #999;
+        }
+    }
+    .threebox{
+        padding-left: px2rem(28);
+        ul{
+            li{
+                overflow: hidden;
+                border-top: px2rem(1.5) solid rgb(245, 245, 245);
+                border-bottom: px2rem(1.5) solid rgb(245, 245, 245);
+                .left{
+                    float: left;
+                    p{
+                        font-size: px2rem(35);
+                        line-height: px2rem(90);
+                    }
+                }
+                .right{
+                    float: right;
+                    font-size: px2rem(35);
+                    margin-top: px2rem(35);
+                    margin-right: px2rem(30);
+                }
+            }
+        }
+    }
+}

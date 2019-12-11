@@ -1,0 +1,70 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+a {
+  text-decoration: none; }
+
+.all {
+  background-color: #f5f5f5; }
+  .all .title {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: white; }
+    .all .title p {
+      font-size: 0.95rem;
+      height: 1.75rem;
+      line-height: 1.75rem;
+      font-weight: bold; }
+    .all .title div {
+      font-size: 0.875rem;
+      position: absolute;
+      top: 50%;
+      left: 1.5rem;
+      transform: translate(-50%, -50%); }
+  .all .jij {
+    font-size: 0.55rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.2rem;
+    overflow: hidden;
+    padding-left: 6%; }
+    .all .jij p {
+      float: left; }
+  .all .nr {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    background-color: #ffffff;
+    margin-bottom: 0.025rem;
+    padding-bottom: 0.25rem; }
+    .all .nr .tp img {
+      width: 3.5rem;
+      height: 3.5rem; }
+    .all .nr .ybian .wz .sz1 {
+      font-size: 0.7rem;
+      margin: 0;
+      text-align: left; }
+    .all .nr .ybian .wz .sz2 {
+      font-size: 0.45rem;
+      color: #929292; }
+    .all .nr .ybian .sz3 {
+      font-size: 0.55rem;
+      text-align: left;
+      color: red; }

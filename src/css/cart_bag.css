@@ -1,0 +1,283 @@
+@charset "UTF-8";
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+body {
+  background-color: whitesmoke; }
+
+#box {
+  height: auto; }
+  #box .title {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    list-style: none; }
+    #box .title li {
+      flex: 1; }
+    #box .title .left_jt {
+      text-align: left;
+      position: relative; }
+      #box .title .left_jt img {
+        display: block;
+        width: 0.9rem;
+        height: 0.9rem;
+        padding-left: 10%; }
+    #box .title .cart_bag {
+      text-align: center;
+      height: 2.375rem;
+      line-height: 2.375rem; }
+      #box .title .cart_bag span {
+        font-size: 0.95rem;
+        font-weight: bold; }
+    #box .title .manage {
+      text-align: right; }
+      #box .title .manage a {
+        font-size: 0.825rem;
+        font-weight: bold;
+        color: #151515;
+        padding-right: 10%; }
+  #box .nav {
+    background-color: white;
+    height: 1.5rem; }
+    #box .nav ul {
+      display: flex;
+      width: 100%;
+      text-align: center;
+      height: 1.5rem;
+      list-style: none; }
+      #box .nav ul li {
+        flex: 1;
+        height: 1.5rem;
+        font-size: 0.75rem;
+        font-family: "黑体";
+        width: 100%;
+        height: 1.4rem; }
+      #box .nav ul .three_n a {
+        color: red;
+        display: block;
+        height: 1.4rem;
+        background-color: white;
+        border-bottom: 4px solid red; }
+      #box .nav ul .three_q a {
+        color: #c8c8c8;
+        height: 1.4rem;
+        background-color: white; }
+  #box .cont {
+    background-color: #f5f5f5;
+    height: auto;
+    width: 100%; }
+    #box .cont .ulBig {
+      width: 94%;
+      margin: 20px auto; }
+      #box .cont .ulBig .lis {
+        display: flex;
+        font-size: 0.875rem;
+        font-weight: bold;
+        align-items: center;
+        height: 4.5rem;
+        justify-self: center;
+        margin-top: 0.5rem; }
+        #box .cont .ulBig .lis .cont_one {
+          width: 4.5rem;
+          text-align: center;
+          background-color: white;
+          height: 4.5rem;
+          line-height: 4.5rem;
+          border-radius: 15px; }
+        #box .cont .ulBig .lis .xuxian {
+          height: 3.875rem;
+          border-right: 0.05rem dashed #999; }
+        #box .cont .ulBig .lis .one {
+          background-color: white;
+          height: 4.5rem;
+          border-radius: 15px;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          line-height: 0.75rem; }
+          #box .cont .ulBig .lis .one .wz1 {
+            font-size: 0.45rem;
+            margin-left: 6%; }
+          #box .cont .ulBig .lis .one .wz2 {
+            margin-left: 10%;
+            color: #999;
+            list-style-type: disc; }
+            #box .cont .ulBig .lis .one .wz2 .a {
+              font-size: 0.375rem; }
+            #box .cont .ulBig .lis .one .wz2 .b {
+              font-size: 0.375rem; }
+
+#box1 {
+  margin: 0 auto;
+  height: auto; }
+  #box1 .title {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    list-style: none; }
+    #box1 .title li {
+      flex: 1; }
+    #box1 .title .left_jt {
+      text-align: left;
+      position: relative; }
+      #box1 .title .left_jt img {
+        display: block;
+        width: 0.9rem;
+        height: 0.9rem;
+        padding-left: 10%; }
+    #box1 .title .cart_bag {
+      text-align: center;
+      height: 2.375rem;
+      line-height: 2.375rem; }
+      #box1 .title .cart_bag span {
+        font-size: 0.95rem;
+        font-weight: bold; }
+    #box1 .title .wancheng {
+      text-align: right; }
+      #box1 .title .wancheng a {
+        font-size: 0.825rem;
+        font-weight: bold;
+        color: #151515;
+        padding-right: 10%; }
+  #box1 .nav {
+    background-color: white;
+    height: 1.5rem; }
+    #box1 .nav ul {
+      display: flex;
+      width: 100%;
+      text-align: center;
+      height: 1.5rem;
+      list-style: none; }
+      #box1 .nav ul li {
+        flex: 1;
+        height: 1.5rem;
+        font-size: 0.75rem;
+        font-family: "黑体";
+        width: 100%;
+        height: 1.4rem; }
+      #box1 .nav ul .three_n a {
+        color: red;
+        display: block;
+        height: 1.4rem;
+        background-color: white;
+        border-bottom: 4px solid red; }
+      #box1 .nav ul .three_q a {
+        color: #c8c8c8;
+        height: 1.4rem;
+        background-color: white; }
+  #box1 .cont {
+    background-color: #f5f5f5;
+    height: auto; }
+    #box1 .cont .ulBig {
+      width: 96%;
+      height: 4.5rem;
+      margin: 0 auto; }
+      #box1 .cont .ulBig .lis {
+        display: flex;
+        font-size: 0.875rem;
+        font-weight: bold;
+        margin-top: 0.5rem; }
+        #box1 .cont .ulBig .lis .cont_one {
+          width: 4.5rem;
+          text-align: center;
+          background-color: white;
+          height: 4.5rem;
+          line-height: 4.5rem;
+          border-radius: 15px; }
+        #box1 .cont .ulBig .lis .xuxian {
+          height: 3.875rem;
+          border-right: 0.05rem dashed #999;
+          margin-top: 2%; }
+        #box1 .cont .ulBig .lis .one {
+          background-color: white;
+          height: 4.5rem;
+          flex-grow: 1;
+          border-radius: 15px;
+          width: 100%; }
+          #box1 .cont .ulBig .lis .one .one_center {
+            width: 90%;
+            height: 4.5rem;
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            justify-content: center; }
+            #box1 .cont .ulBig .lis .one .one_center .wz1 {
+              font-size: 0.45rem;
+              color: #a8a8a8;
+              position: relative;
+              left: 5%;
+              width: 70%; }
+            #box1 .cont .ulBig .lis .one .one_center .wz2 {
+              list-style-type: disc;
+              line-height: 0.75rem; }
+              #box1 .cont .ulBig .lis .one .one_center .wz2 li {
+                width: 100%;
+                color: #cdcdcd; }
+              #box1 .cont .ulBig .lis .one .one_center .wz2 .a {
+                font-size: 0.375rem;
+                position: relative;
+                left: 8%;
+                width: 70%; }
+              #box1 .cont .ulBig .lis .one .one_center .wz2 .b {
+                font-size: 0.375rem;
+                position: relative;
+                left: 8%;
+                width: 70%; }
+          #box1 .cont .ulBig .lis .one .xk {
+            text-align: right;
+            position: relative;
+            top: -3.25rem;
+            left: -0.25rem; }
+            #box1 .cont .ulBig .lis .one .xk input {
+              width: 0.75rem;
+              height: 0.75rem; }
+  #box1 .bottom {
+    width: 100%;
+    height: 2.5rem;
+    background-color: white;
+    position: relative;
+    top: 16.625rem; }
+    #box1 .bottom ul {
+      float: left;
+      width: 100%;
+      list-style: none; }
+      #box1 .bottom ul li {
+        width: 50%;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        float: left; }
+        #box1 .bottom ul li input {
+          width: 0.625rem;
+          height: 0.625rem;
+          margin-left: 0.375rem; }
+        #box1 .bottom ul li label {
+          font-size: 0.75rem;
+          font-weight: bold; }
+      #box1 .bottom ul .shanchu {
+        width: 50%;
+        height: 2.5rem;
+        text-align: center;
+        background: -webkit-linear-gradient(left, #fe5e19, #fe281c);
+        background: -o-linear-gradient(right, #fe5e19, #fe281c);
+        background: -moz-linear-gradient(right, #fe5e19, #fe281c);
+        background: linear-gradient(to right, #fe5e19, #fe281c); }
+        #box1 .bottom ul .shanchu a {
+          font-size: 0.75rem;
+          color: whitesmoke;
+          font-weight: bold; }

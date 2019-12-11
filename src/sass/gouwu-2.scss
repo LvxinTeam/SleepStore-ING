@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.all{
+    background-color: #f5f5f5;
+    .gwcz{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: #ffffff;
+        .z1{
+            font-size: px2rem(35);
+            line-height: px2rem(50);
+        }
+        .z2{
+            font-size: px2rem(30);
+        }
+        .z3{
+            width: px2rem(72);
+
+        }
+    }
+    .mjian{
+        height:px2rem(65);
+        color:#ffd1b5;
+        background-color:#fff6f1;
+        padding-top:px2rem(10);
+        padding-left:px2rem(30);
+        .tt{
+            width:px2rem(32);
+            height:px2rem(32);
+        }
+        .zz{
+            font-size: px2rem(26);
+            margin-left: px2rem(10);
+        }
+    }
+    .kege3{
+        height: px2rem(40);
+        background-color: #ffffff;
+    }   
+    .ddan{
+        display: flex;
+        justify-content: center;
+        border-bottom:1px solid #f6f6f6;
+        background-color: #ffffff;
+        padding-top: px2rem(40);
+        .yuan{
+            .yyu{
+                width:px2rem(32);
+                height:px2rem(32);
+                padding-top:120%;
+                margin-right:px2rem(10) ;
+            }
+        }
+        .yft{
+            .yftt{
+                width:px2rem(144);
+                height:px2rem(146);
+            }
+        }
+        .ybian{
+            width: 65%;
+            .zt1{
+                font-size:px2rem(32);
+            }
+            .zt2{
+                font-size:px2rem(20);
+            }
+            .zt3{
+                font-size: px2rem(28);
+                padding-top: 5%;
+                color: red;
+                display: flex;
+                justify-content: space-between;
+                .jians{
+                    width:px2rem(165);
+                    height:px2rem(50);
+                }
+            }
+        }
+    }
+    .kge{
+        height:px2rem(110);
+    }
+    .jies{
+        display: flex;
+        justify-content:space-between;
+        background-color: #ffffff;
+        .jies1{
+            font-size:px2rem(32) ;
+            padding-top: 3%;
+            padding-left: 3%;
+            .yyu{
+                width:px2rem(32);
+                height:px2rem(32);
+            }
+        }
+        .jies3{
+            font-size:px2rem(30) ;
+            margin-top: 3%;
+            margin-right: 3%;
+            height: px2rem(50);
+            width: px2rem(120);
+            border: px2rem(2) solid #5c5b5b;
+            border-radius: 36%;
+            line-height:px2rem(50);
+            text-align: center;
+        }
+    }
+    // .kge2{
+    //     height: px2rem(80);
+    //     background-color: #ffffff;
+    // }
+    
+}
+.db{
+    background: rgb(252, 252, 252);
+    width: 100%;
+    font-size: px2rem(20);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    // height: px2rem(80);
+    position: fixed;
+    bottom: px2rem(0);
+    z-index: 100;
+    img{
+        width: px2rem(50);
+        height: px2rem(42);
+    }
+}

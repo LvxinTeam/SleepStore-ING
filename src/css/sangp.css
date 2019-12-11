@@ -1,0 +1,130 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+.all {
+  background-color: #ffffff; }
+  .all .bing img {
+    height: 5rem;
+    width: 100%; }
+  .all .yang {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem; }
+    .all .yang .t1 {
+      width: 3.5rem;
+      height: 4.75rem;
+      padding-top: 0.75rem; }
+    .all .yang .t2 {
+      width: 7.5rem;
+      height: 6.25rem; }
+    .all .yang .t3 {
+      width: 3.5rem;
+      height: 4.75rem;
+      padding-top: 0.75rem; }
+  .all .sz {
+    text-align: center; }
+    .all .sz .sz1 {
+      font-size: 0.95rem;
+      color: red; }
+    .all .sz .sz2 {
+      font-size: 0.6rem;
+      color: #dadada;
+      padding-top: 0.1rem; }
+    .all .sz .sz3 {
+      font-size: 0.6rem;
+      color: #dadada;
+      padding-top: 0.125rem; }
+      .all .sz .sz3 span {
+        color: black; }
+  .all .syou .dyg {
+    margin-bottom: 0.7rem; }
+    .all .syou .dyg p {
+      font-size: 0.7rem;
+      color: #dadada;
+      padding-left: 3%;
+      padding-bottom: 0.5rem; }
+    .all .syou .dyg .yans {
+      margin-left: 10%;
+      margin-right: 5%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.6rem; }
+      .all .syou .dyg .yans span {
+        border: 0.025rem solid #b0b0b0;
+        color: #dadada;
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+        padding-right: 0.375rem;
+        padding-left: 0.375rem; }
+      .all .syou .dyg .yans .yan1 {
+        background-color: red;
+        color: white; }
+  .all .syou .deg {
+    margin-bottom: 0.7rem; }
+    .all .syou .deg p {
+      font-size: 0.7rem;
+      color: #dadada;
+      padding-left: 6%;
+      padding-bottom: 0.5rem; }
+    .all .syou .deg .gui {
+      margin-left: 10%;
+      margin-right: 5%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.6rem; }
+      .all .syou .deg .gui span {
+        border: 0.025rem solid #b0b0b0;
+        color: #dadada;
+        border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+        padding-right: 0.375rem;
+        padding-left: 0.375rem; }
+  .all .syou .dsg {
+    overflow: hidden; }
+    .all .syou .dsg p {
+      font-size: 0.7rem;
+      color: #dadada;
+      padding-left: 6%;
+      padding-bottom: 0.5rem; }
+    .all .syou .dsg img {
+      float: right;
+      margin-right: 5%;
+      width: 4rem;
+      height: 1.125rem; }
+  .all .zh {
+    margin-top: 1.25rem;
+    padding-left: 20%; }
+    .all .zh .gou {
+      border: 0.025rem solid #b0b0b0;
+      color: #dadada;
+      border-radius: 1.25rem 0 0 1.25rem;
+      background-color: #ff6f18;
+      padding-right: 0.375rem;
+      padding-left: 0.375rem;
+      padding-top: 0.375rem;
+      padding-bottom: 0.375rem;
+      font-size: 0.8rem; }
+    .all .zh .li {
+      border: 0.025rem solid #b0b0b0;
+      color: #dadada;
+      border-radius: 0 1.25rem 1.25rem 0;
+      background-color: #fe231d;
+      padding-right: 0.375rem;
+      padding-left: 0.375rem;
+      padding-top: 0.375rem;
+      padding-bottom: 0.375rem;
+      margin-left: -0.375rem;
+      font-size: 0.8rem; }

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import "../lib/hotcss-master/src/px2rem.scss";
+$designWidth:640;
+#tiaozhuananniubox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: px2rem(70);
+    background: rgb(254, 44, 28);
+    p{
+        font-size: px2rem(32);
+        line-height: px2rem(33);
+        display: inline-block;
+        font-weight: bold;
+    }
+    a{
+        font-size: px2rem(30);
+        line-height: px2rem(33);
+        margin-right: px2rem(15);
+        margin-left: px2rem(7);
+        color: white;
+    }
+}
+.container{
+    .title{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        p{
+            font-size: px2rem(38);
+            height: px2rem(70);
+            line-height: px2rem(70);
+            font-weight: bold;
+        }
+        div{
+            font-size: px2rem(35);
+            position: absolute;
+            top:50%;
+            left: px2rem(60);
+            transform: translate(-50%,-50%);
+        }
+    }
+    ul{
+        padding-left: px2rem(100);
+        padding-right: px2rem(100);
+        text-align: center;
+        .lione{
+            padding-top: px2rem(100);
+            padding-bottom: px2rem(100);
+            div{
+                margin: 0 auto;
+                width: px2rem(200);
+                height: px2rem(200);
+                background-image: url(../image/gougou.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .litwo{
+            p{
+                line-height: px2rem(70);
+                font-size: px2rem(40);
+                color: black;
+            }
+        }
+        .lithree{
+            p{
+                line-height: px2rem(50);
+                font-size: px2rem(25);
+                color: #999;
+            }
+        }
+        .selectbtn{
+            border-top: px2rem(1) solid #999;
+            border-radius: px2rem(45);
+            margin-top: px2rem(55);
+            height: px2rem(90);
+            background: -webkit-linear-gradient(left, rgb(254, 94, 25), rgb(254, 40, 28));
+	        background: -o-linear-gradient(right, rgb(254, 94, 25), rgb(254, 40, 28));
+	        background: -moz-linear-gradient(right, rgb(254, 94, 25), rgb(254, 40, 28));
+            background: linear-gradient(to right, rgb(254, 94, 25), rgb(254, 40, 28));
+            text-align: center;
+            p{
+                line-height: px2rem(90);
+                font-size: px2rem(35);
+                color: white;
+            }
+        }
+        .jixubtn{
+            border-top: px2rem(1) solid #999;
+            border-radius: px2rem(45);
+            margin-top: px2rem(55);
+            height: px2rem(90);
+            background-color: white;
+            border: px2rem(1) solid #666;
+            text-align: center;
+            p{
+                line-height: px2rem(90);
+                font-size: px2rem(35);
+                color: black;
+            }
+        }
+    }
+}

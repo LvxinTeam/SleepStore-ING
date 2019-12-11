@@ -1,0 +1,66 @@
+#tiaozhuananniubox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.75rem;
+  background: #fe2c1c; }
+  #tiaozhuananniubox p {
+    font-size: 0.8rem;
+    line-height: 0.825rem;
+    display: inline-block;
+    font-weight: bold; }
+  #tiaozhuananniubox a {
+    font-size: 0.75rem;
+    line-height: 0.825rem;
+    margin-right: 0.375rem;
+    margin-left: 0.175rem;
+    color: white; }
+
+.all .title {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: white; }
+  .all .title p {
+    font-size: 0.95rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    font-weight: bold; }
+  .all .title div {
+    font-size: 0.875rem;
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translate(-50%, -50%); }
+
+.all .dasj {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.05rem solid #f5f5f5; }
+  .all .dasj .z1 {
+    font-size: 0.55rem;
+    color: black;
+    padding-bottom: 0.125rem; }
+  .all .dasj .z2 {
+    font-size: 0.4rem;
+    color: #878787;
+    padding-bottom: 0.125rem; }
+  .all .dasj .z3 {
+    font-size: 0.4rem;
+    color: #878787; }
+  .all .dasj .z4 {
+    font-size: 0.55rem;
+    color: black;
+    padding-bottom: 0.125rem; }
+  .all .dasj .z5 {
+    font-size: 0.4rem;
+    color: #878787;
+    padding-bottom: 0.125rem; }
+  .all .dasj .z6 {
+    font-size: 0.55rem;
+    color: black;
+    padding-bottom: 0.125rem; }
+  .all .dasj .z7 {
+    font-size: 0.4rem;
+    color: #878787;
+    padding-bottom: 0.125rem; }
